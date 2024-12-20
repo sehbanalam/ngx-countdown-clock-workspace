@@ -36,4 +36,3 @@ This software is provided free of charge and without support. Use at your own ri
 
 ## Contact
 For questions or further inquiries, please contact the repository maintainer.
-

@@ -53,7 +53,7 @@ In your component class:
 ```typescript
 export class AppComponent {
   onCountdownEnd(): void {
-    console.log('Countdown completed!');
+    console.log("Countdown completed!");
   }
 }
 ```
@@ -132,23 +132,23 @@ ngx-countdown-clock .time-display {
 
 ### Inputs
 
-| Input       | Type   | Description                                   |
-|-------------|--------|-----------------------------------------------|
+| Input       | Type   | Description                                    |
+| ----------- | ------ | ---------------------------------------------- |
 | `startTime` | number | Initial countdown time in seconds. Default: 60 |
 
 ### Outputs
 
-| Output             | Type     | Description                               |
-|--------------------|----------|-------------------------------------------|
+| Output              | Type                 | Description                            |
+| ------------------- | -------------------- | -------------------------------------- |
 | `countdownComplete` | `EventEmitter<void>` | Emits when the countdown reaches zero. |
 
 ### Methods
 
-| Method  | Description             |
-|---------|-------------------------|
-| `start()` | Starts the countdown.   |
-| `pause()` | Pauses the countdown.   |
-| `reset()` | Resets the countdown.   |
+| Method    | Description           |
+| --------- | --------------------- |
+| `start()` | Starts the countdown. |
+| `pause()` | Pauses the countdown. |
+| `reset()` | Resets the countdown. |
 
 ---
 

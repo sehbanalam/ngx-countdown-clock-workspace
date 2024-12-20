@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "ngx-countdown-clock": [
+        "./dist/ngx-countdown-clock"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,

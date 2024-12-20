@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:demo": "node dist/demo/server/server.mjs",
-    "pretty": "prettier --write ."
+    "pretty": "prettier --write .",
+    "build-lib": "ng build ngx-countdown-clock"
   },
   "private": true,
   "dependencies": {
